@@ -6,7 +6,8 @@ namespace Benchmarks
     {
         public static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run<InverseSquareRoot>();
+            //var summary = BenchmarkRunner.Run<InverseSquareRoot>();
+            var summary = BenchmarkRunner.Run<EnumToString>();
         }
     }
 }
