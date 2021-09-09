@@ -10,4 +10,17 @@
       <PackageReference Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.13.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="TestData\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="TestData\first1410082.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="TestData\first714584.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
